@@ -1,0 +1,191 @@
+ConnectionPanel
+Size = 220, 187
+Location = 12, 12
+BackColor = White
+
+ConnectionTitle
+Text = Connection Panel
+Location = 36, 14
+Size = 150, 20
+Font.Size = 12
+Font.Bold = True
+ForeColor= DarkViolet
+	
+ButtonScanPort	
+Text = Scan Port
+Location = 11, 54
+Size = 75, 23
+Font.Bold = True
+FlatStyle = Flat
+BackColor = 165, 89, 182
+ForeColor = White
+
+FlatAppearence >
+BorderColor = White
+MouseDownBackColor = 207, 38, 138
+MouseOverBackColor = 107, 7, 114
+
+ComboBoxPort
+Location = 92, 55
+DropDownStyle = DropDownList
+FlatStyle = Flat
+BackColor = 155, 89, 182
+ForeColor = White
+
+LabelBaudRate	
+Text = Baud Rate :
+Size = 13, 93
+Location = 11, 93
+Font.Bold = True
+ForeColor = 155, 89, 182
+BackColor = White	
+		
+ComboBoxBaudRate
+Location = 92, 90
+ForeColor = White
+BackColor = 155, 89, 182
+DropDownStyle = DropDownList
+FlatStyle = Flat
+
+Items = 
+9600
+14400
+19200
+38400
+57600
+115200
+		
+		
+ButtonConnect
+Text = Connect
+Size = 143, 23
+Location = 36, 124
+FlatStyle = Flat
+Font.Bold = True
+BackColor = 80, 180, 120
+ForeColor = White
+
+FlatAppearence
+BorderColor = White
+MouseDownBackColor = 65, 155, 95
+MouseOverBackColor = 70, 175, 105
+
+ButtonDisconnect
+Text = Disconnect
+Size = 143, 23
+Location = 36, 124
+Font.Bold = True
+BackColor = 250, 100, 100
+ForeColor = White
+FlatStyle = Flat
+
+FlatAppearence
+BorderColor = White
+MouseDownBackColor = 200, 80, 80
+MouseOverBackColor = 228, 90, 90
+
+SpeedPanel
+Size = 208, 187
+Location = 238, 12
+BackColor = White
+
+LabelSpeed
+Text = Speed
+Size = 61, 20
+Location = 75, 7
+ForeColor = 165, 89, 182
+Font.Size = 12
+Font.Bold = True
+
+CircularProgressBarSpeed
+Text = 00 km/h
+Location = 39, 31
+Size = 135, 135
+ProgressColor = 255, 128, 0
+OuterColor = Gray
+BackColor = Transparent
+InnerColor= White
+ForeColor = 155, 89, 182
+Font.Size = 12
+Font.Bold = True
+TextMargin = 0, 2, 0, 0
+TextMargin.All = -1
+
+BatteryPanel
+Size = 200, 179
+Location = 241, 148
+BackColor = White
+
+BatteryLabel
+Text = Battery
+Size = 68, 6
+Location = 45, 11
+ForeColor = 165, 89, 182
+Font.Size = 12
+Font.Bold = True
+
+PictureBoxBatteryBack
+Size = 46, 119
+Location = 63, 44
+BackColor = DarkGray
+
+BatteryTop
+Size = 18, 10
+Location = 77, 38
+BackColor = DarkGray
+SendBack
+
+PictureBoxBatteryFront
+Size = 46, 103
+Location = 63, 60
+BackColor = 255, 153, 0
+
+BatteryVolt
+Text =  0 V
+Location = 126, 90
+Font.Size = 11
+Font.Bold = True
+Font.Color = DarkViolet
+
+Chart
+Size = 649, 180
+Location = 12, 205
+
+Series.Name = Temperature
+Series.ChartType = Spline
+Series.Color = DarkViolet
+Series.BorderWidth = 2
+
+Legend.Font.Size = 9
+Legend.Font.Bold = True
+Legend.ForeColor = DarkViolet
+
+ChartArea.Axes.X_axis.LabelStyle.ForeColor = DarkViolet
+LineColor = LightGray
+MajorGrid.LineColor = LightGray
+MajorTickMark - LightGray
+
+ChartArea.Axes.Y_axis.ForeColor = DarkViolet
+
+LineColor = 200, 200, 200
+
+LabelStatus.Text = Status: Disconnected 
+ForeColor = DarkViolet 
+Font.Size 8 
+Font.Bold = False 
+Location = 20, 399
+
+
+ConnectionStatusBox
+Size = 10, 10 
+Location = 132, 395
+BackColor = Red 
+
+TempBox
+Font.Size = 12
+ForeColor = DarkViolet
+BackColor = White
+
+SerialPort
+
+Timer
