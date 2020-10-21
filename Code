@@ -174,7 +174,7 @@ Public Class Form1
 
                 StrSerialInRam = TB.Lines(2).Substring(0, 1)
                 If StrSerialInRam = "T" Then
-                    Temp = TB.Lines(1)
+                    Temp = TB.Lines(2)
                     TempL = Temp.Length
                 Else
                     Temp = Temp
